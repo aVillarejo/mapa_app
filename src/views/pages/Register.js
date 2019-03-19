@@ -20,7 +20,8 @@ import Modal from "./../../components/util/Modal";
 
 class Register extends Component {
   state = {
-    alertVisible: false
+    alertVisible: false,
+    modal: false
   };
 
   handleAlert = () => {
@@ -28,16 +29,23 @@ class Register extends Component {
       alertVisible: !this.state.alertVisible
     });
   };
+  handleModal = prevstate => {
+    this.setState({
+      modal: !prevstate.modal
+    });
+  };
   render() {
     return (
       <Container style={styles.root}>
         <Modal
-          isOpen={false}
+          isOpen={this.state.modal}
           title="Registro Exitoso"
           body="Su cuenta ha sido registrada, gracias por su tiempo"
         />
         <h1>Pagina de Registo</h1>
-        <Button color="primary">Button</Button>
+        <Button color="primary" onClick={this.handleModal}>
+          Button
+        </Button>
         <Button color="info" onClick={this.handleAlert}>
           Button
         </Button>
