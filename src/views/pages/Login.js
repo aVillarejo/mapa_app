@@ -52,25 +52,9 @@ class Login extends Component {
             <Card body>
               <CardHeader>Login</CardHeader>
               <Form>
-                <InputGroup className="my-2">
-                  <InputGroupAddon addonType="prepend">N</InputGroupAddon>
-                  <Input placeholder="Nombre" />
-                </InputGroup>
-                <InputGroup className="my-3">
-                  <InputGroupAddon addonType="prepend">A</InputGroupAddon>
-                  <Input placeholder="Apellidos" />
-                </InputGroup>
-                <InputGroup className="my-3">
-                  <InputGroupAddon addonType="prepend">T</InputGroupAddon>
-                  <Input placeholder="Telefono" />
-                </InputGroup>
                 <InputGroup className="my-3">
                   <InputGroupAddon addonType="prepend">@</InputGroupAddon>
                   <Input placeholder="correo" />
-                </InputGroup>
-                <InputGroup className="my-3">
-                  <InputGroupAddon addonType="prepend">*</InputGroupAddon>
-                  <Input placeholder="Password" />
                 </InputGroup>
                 <InputGroup className="my-3">
                   <InputGroupAddon addonType="prepend">*</InputGroupAddon>
