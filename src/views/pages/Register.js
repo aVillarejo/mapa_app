@@ -10,9 +10,7 @@ import {
   Row,
   Col,
   CardText,
-  CardBody,
   CardTitle,
-  CardSubtitle,
   Form,
   CardHeader
 } from "reactstrap";
