@@ -13,7 +13,6 @@ export default class ModalComponent extends Component {
       isOpen: !prevState.isOpen
     }));
   };
-
   render() {
     return (
       <Modal
