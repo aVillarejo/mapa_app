@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/mapa_app/static/js/runtime~main.a53945b1.js"
   },
   {
-    "revision": "8787251255e672853dd4",
-    "url": "/mapa_app/static/js/main.23050de6.chunk.js"
+    "revision": "c9f9adfccb92096d2fc7",
+    "url": "/mapa_app/static/js/main.160f302f.chunk.js"
   },
   {
-    "revision": "26299e67868088c82353",
-    "url": "/mapa_app/static/js/2.73f5b491.chunk.js"
+    "revision": "87f55e56842a34dcf408",
+    "url": "/mapa_app/static/js/2.ff4f270e.chunk.js"
   },
   {
-    "revision": "8787251255e672853dd4",
+    "revision": "c9f9adfccb92096d2fc7",
     "url": "/mapa_app/static/css/main.4832dc00.chunk.css"
   },
   {
-    "revision": "26299e67868088c82353",
+    "revision": "87f55e56842a34dcf408",
     "url": "/mapa_app/static/css/2.08cf2240.chunk.css"
   },
   {
-    "revision": "2b49e05348d344eec4fa7d109b08a20f",
+    "revision": "6980f71d9d615f3834bb8ecfc4fcf279",
     "url": "/mapa_app/index.html"
   }
 ];
